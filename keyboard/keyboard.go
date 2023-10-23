@@ -22,6 +22,5 @@ func GetFloat() (float64, error) {
 	if err != nil {
 		return 0, err
 	}
-	fmt.Println("GetFloat return Value")
 	return number, nil
 }
